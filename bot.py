@@ -1,4 +1,3 @@
-cat << 'EOF' > bot.py
 import logging
 from google import genai
 from telegram import Update
@@ -32,4 +31,3 @@ if __name__ == '__main__':
     
     print("البوت يعمل الآن...")
     app.run_polling()
-EOF
